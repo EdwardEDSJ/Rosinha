@@ -14,10 +14,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/seta"
-        android:text="                                                           Login"
+        android:text="                                                           Sign up"
         android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+
+
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:drawableLeft="@drawable/cam144"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="135dp"
         android:textColor="#fff"
 
 
@@ -26,9 +36,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        andri
         android:layout_gravity="center"
-        android:layout_marginBottom="100dp"
+
         />
 
 
@@ -38,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
         android:drawableStart="@drawable/uservermelhorosa"
-        android:hint="    User Name"
+        android:hint="    Name"
         android:textColorHint="#fff"
         android:inputType="textEmailAddress"
         android:padding="20sp"
@@ -50,57 +59,49 @@
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
         android:textColorHint="#fff"
-        android:drawableStart="@drawable/key"
-        android:hint="  Password"
-        android:drawableEnd="@drawable/quest"
+        android:drawableStart="@drawable/email"
+        android:hint="  Email"
+
         android:inputType="textPassword"
         android:maxLength="80"
         android:padding="20sp" />
 
     <EditText
-        android:id="@+id/edtEmail"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
-        android:drawableStart="@drawable/uservermelhorosa"
-        android:hint="    User Name"
+        android:drawableStart="@drawable/key"
+        android:hint="    Password"
         android:textColorHint="#fff"
         android:inputType="textEmailAddress"
         android:padding="20sp"
         />
 
     <EditText
-        android:id="@+id/edtSenha"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
         android:textColorHint="#fff"
-        android:drawableStart="@drawable/key"
-        android:hint="  Password"
-        android:drawableEnd="@drawable/quest"
+        android:drawableStart="@drawable/gift"
+        android:hint=" Birthday"
+
         android:inputType="textPassword"
         android:maxLength="80"
         android:padding="20sp" />
 
 
-    <TextView
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:drawableBottom="@drawable/uservermelhorosa"
+        android:padding="10dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/door"
-        android:layout_marginLeft="190dp"
+        />
 
-
-        android:background="#"
-        android:textColor="#fff"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:text="Don´t have an account? Sign up"
-        android:background="#"
-        android:textColor="#fff"/>
 
 
 

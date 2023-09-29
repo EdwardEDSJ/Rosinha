@@ -62,16 +62,18 @@
 
 
         />
-    <TextView
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:drawableBottom="@drawable/door"
+        android:padding="10dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/door"
-        android:layout_marginLeft="190dp"
 
 
-        android:background="#"
-        android:textColor="#fff"/>
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_marginTop="30dp"
